@@ -1,6 +1,8 @@
 # MySQL_Data_Types
+![char_varchar](https://github.com/NoriKaneshige/MySQL_Data_Types/blob/master/char_varchar.png)
 
 ## DECIMAL
+![decimal](https://github.com/NoriKaneshige/MySQL_Data_Types/blob/master/decimal.png)
 ```
 mysql> CREATE TABLE items(price DECIMAL(5,2));
 Query OK, 0 rows affected (0.05 sec)
@@ -38,6 +40,7 @@ mysql> SELECT * FROM items;
 5 rows in set (0.00 sec)
 ```
 ## FLOAT and DOUBLE
+![float_double](https://github.com/NoriKaneshige/MySQL_Data_Types/blob/master/float_double.png)
 ```
 mysql> CREATE TABLE thingies (price FLOAT);
 Query OK, 0 rows affected (0.05 sec)
